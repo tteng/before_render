@@ -1,6 +1,6 @@
 = before_render
 
-Description goes here.
+  please reference http://github.com/xtoddx/before_render
 
 == Note on Patches/Pull Requests
  

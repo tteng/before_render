@@ -56,3 +56,8 @@ module BeforeRender
   end
 
 end
+
+ActionController::Filters::Filter.send :include, FilterHasBeforeRender
+ActionController::Base.send :extend, BeforeRender
+ActionController::Base.send :include, BeforeRenderInstance
+ActionController::Filters::FilterChain.send :include, FilterChainHasManyTypesOfFilters

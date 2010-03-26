@@ -2,6 +2,9 @@
 
   please reference http://github.com/xtoddx/before_render
 
+== Install
+   gem install before_render
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
